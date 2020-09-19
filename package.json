@@ -4,7 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . NotesApp && cp electron.icns NotesApp-darwin-x64/NotesApp.app/Contents/Resources mv NotesApp-darwin-x64/NotesApp.app/ ~/desktop"
+
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
