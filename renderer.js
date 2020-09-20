@@ -1,6 +1,5 @@
 // imports
 import { fetchPosts } from "./Fetch-Apis/fetchposts.js";
-import { updatePost } from "./Fetch-Apis/updatepost.js"
 import { createPost } from "./Fetch-Apis/createpost.js";
 
 

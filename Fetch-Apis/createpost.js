@@ -12,6 +12,7 @@ const createPost = (url) => {
   .then(data => {
     console.log('Success:', data);
   })
+  location.reload();
 }
 
 export { createPost };

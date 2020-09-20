@@ -1,10 +1,11 @@
-const updatePost = (id) => {
-    fetch(`http://notes-desktop-api.herokuapp.com/api/v1/notes/${id}`, {
+
+const updatePost = (id, data) => {
+  fetch(`http://notes-desktop-api.herokuapp.com/api/v1/notes/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({title: title.value})
+    body: JSON.stringify(data)
   })
   .then(response => response.json())
   .then(data => {

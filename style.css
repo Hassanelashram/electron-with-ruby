@@ -4,6 +4,17 @@ input {
     border: none;
     border-radius: 5px;
     width: 100%;
+    margin: 10px 0px;
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
 }
 
 .note-card {
@@ -22,12 +33,6 @@ input {
     height: 300px;
 }
 
-.btn-primary, .btn-primary:hover {
-    background-color: purple;
-    color: white;
-    border-radius: 15px;
-    padding: 15px;
-    cursor: pointer;
-    display: inline-block;
-    width: 100%;
+.note-card .btn-primary {
+    width: 40%;
 }
